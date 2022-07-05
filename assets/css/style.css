@@ -56,7 +56,7 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-/* hero image andcover text */
+/* hero image and cover text */
 
 #hero-outer {
     height: 600px;
@@ -69,6 +69,7 @@ h1, h2 {
 #cover-text, #cover-text h2 {
     color: #fff;
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -83,7 +84,7 @@ animation-fill-mode: forwards;
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
-        transform:scale(1);
+        transform: scale(1);
     }
     to {
         transform: scale(1.1);      
@@ -111,7 +112,7 @@ animation-fill-mode: forwards;
 
 /* club ethos */
 
-#club-ethos{
+#club-ethos { 
     height: 600px;
 }
 
@@ -219,12 +220,12 @@ footer {
     height: 150px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 
 }
 
-.social-networks > li{
+.social-networks > li { 
     display: inline;
 }
 
@@ -242,7 +243,6 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-
 }
 
 #photos > img {
@@ -281,4 +281,15 @@ footer {
 hr {
     display: none;
 }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screenand(max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
